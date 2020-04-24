@@ -2,14 +2,14 @@
 
 // 1 input - array of numbers
 function getSumOfItems(arr) {
-	// creating a result variable 
-	var sum = 0;
-	//iterating through the array of numbers
-	for (var i = 0; i < arr.length; i++) {
-		//getting the sum of all the numbers in the array
-		sum += arr[i];
-	}//returning the sum total 
-	return sum;
+    // creating a result variable 
+    var sum = 0;
+   //iterating through the array of numbers
+  for (var i = 0; i < arr.length; i++) {
+ //getting the sum of all the numbers in the array
+      sum += arr[i];
+  }//returning the sum total 
+  return sum;
 }
 
 // testing our function by calling it 
